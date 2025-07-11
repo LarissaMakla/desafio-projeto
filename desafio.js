@@ -17,11 +17,11 @@ if(xpHeroi < 1000) {
     nivelHeroi = "Platina";
 } else if (xpHeroi >= 8001 && xpHeroi <= 9000){
      nivelHeroi = "Ascendente";
-} else if (xpHeroi >= 9001 && xp <= 10000) {
+} else if (xpHeroi >= 9001 && xpHeroi <= 10000) {
     nivelHeroi = "Imortal";
 } else { //xp igual ou maior que 10001
     nivelHeroi = "Radiante"    
 }
 
 //saida final
-console.log ('O herói de nome **${nomeHeroi}** está no nível **${nivelHeroi}**')
+console.log('O herói de nome ' + nomeHeroi + ' está no nível ' + nivelHeroi);
